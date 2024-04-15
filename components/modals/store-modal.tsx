@@ -77,7 +77,7 @@ const StoreModal = () => {
                                                    <FormControl>
                                                        <Input
                                                            disabled={loading}
-                                                           placeholder='E-commerce' {...field}>
+                                                           placeholder='E-commerce-' {...field}>
                                                        </Input>
                                                    </FormControl>
                                                    <FormMessage/>
