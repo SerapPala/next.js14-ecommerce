@@ -7,13 +7,8 @@ interface useStoreModalStore {
     onOpen: ()=>void;
     onClose:()=>void;
 }
-
 export const useStoremodal = create<useStoreModalStore>((set)=>({
-
     isOpen:false,
     onOpen:()=>set({isOpen:true}),
     onClose:()=>set({isOpen:false}),
-
-
-
 }))
